@@ -5,7 +5,7 @@ from numbers import Number
 from reddwarfclient import exceptions
 from reddwarfclient.client import ReddwarfHTTPClient
 
-XML_NS = {None: "http://docs.openstack.org/database/api/v1.0"}
+XML_NS = {None: "http://docs.openstack.org/identity/api/v2.0"}
 
 # If XML element is listed here then this searches through the ancestors.
 LISTIFY = {
